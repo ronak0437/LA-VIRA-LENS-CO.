@@ -1,0 +1,124 @@
+.homebg{
+  position: absolute;
+  margin-left: -1000px;
+  margin-top: 0px;
+  padding-right: 0px;
+}
+
+.homegraphic{
+  position:absolute;
+  margin-top: 200px;
+  margin-left: 675px;
+}
+
+.container{
+  position: relative;
+}
+
+.container img {
+  position: absolute;
+}
+
+.container img:last-child {
+  z-index: 1;
+}
+
+.handmade{
+  position: relative;
+  margin-top: 300px;
+  margin-left: -800px;
+}
+
+.circular-button1 {
+  width: 140px;
+  height: 140px;
+  background-color: #ffffff;
+  border: 2px solid #000000;
+  border-radius: 50%;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  cursor: pointer;
+  overflow: hidden;
+  display: flex;
+  left: 70px;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 50px;
+  z-index: 10;
+}
+
+.circular-button2 {
+  width: 140px;
+  height: 140px;
+  background-color: #ffffff;
+  border: 2px solid #000000;
+  border-radius: 50%;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  cursor: pointer;
+  overflow: hidden;
+  display: flex;
+  left: 250px;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 50px;
+  z-index: 10;
+}
+
+.circular-button3 {
+  width: 140px;
+  height: 140px;
+  background-color: #ffffff;
+  border: 2px solid #000000;
+  border-radius: 50%;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  cursor: pointer;
+  overflow: hidden;
+  display: flex;
+  left: 420px;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 50px;
+  z-index: 10;
+}
+
+.circular-button4 {
+  width: 140px;
+  height: 140px;
+  background-color: #ffffff;
+  border: 2px solid #000000;
+  border-radius: 50%;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  cursor: pointer;
+  overflow: hidden;
+  display: flex;
+  left: 590px;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 50px;
+  z-index: 10;
+}
+
+.circular-button5 {
+  width: 140px;
+  height: 140px;
+  background-color: #ffffff;
+  border: 2px solid #000000;
+  border-radius: 50%;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  cursor: pointer;
+  overflow: hidden;
+  display: flex;
+  left: 760px;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 50px;
+  z-index: 10;
+}
+
+.circular-button:hover {
+  background-color:
+}

@@ -1,0 +1,140 @@
+.addproduct{
+    position: relative;
+    margin-top: 3%;
+    align-items: center;
+
+}
+.fname,
+.lname,
+.lmobileno,
+.laddress,
+.lquantity,
+.lsubmit{
+    margin-left: 10px;
+    margin-top: 150px;
+    align-items: center;
+}
+
+.fname{
+    position: absolute;
+    width: 200px;
+    height: 48px;
+    left: 410px;
+    margin-top: 70px;
+    
+    font-weight: 200;
+    font-size: 20px; 
+}
+.lname{
+    position: absolute;
+    width: 200px;
+    height: 48px;
+    left: 410px;
+    margin-top: 160px;
+    
+    font-weight: 200;
+    font-size: 20px; 
+}
+
+.lmobileno{
+    position: absolute;
+    width: 200px;
+    height: 48px;
+    left: 370px;
+    margin-top: 250px;
+    
+    font-weight: 200;
+    font-size: 20px; 
+}
+
+.laddress{
+    position: absolute;
+    width: 200px;
+    height: 48px;
+    margin-left: -25%;
+    margin-top: 350px;
+    
+    font-weight: 200;
+    font-size: 20px; 
+}
+
+.lquantity{
+    position: absolute;
+    width: 200px;
+    height: 48px;
+    margin-left: -25%;
+    margin-top: 500px;
+    
+    font-weight: 200;
+    font-size: 20px; 
+}
+
+.labelpname,
+.labellname,
+.labelmobileno,
+.labeladdress,
+.labelquantity{
+    width: 100%;
+    margin-bottom: 10%;
+    margin-left: 20%;
+    margin-top: 50px;
+}
+
+.labelpname{
+    position: absolute;
+    width: 300px;
+    height: 30px;
+    left: 250px;
+    margin-top: 55px; 
+}
+
+.labellname{
+    position: absolute;
+    width: 300px;
+    height: 30px;
+    margin-left: -60px;
+    margin-top: 150px; 
+}
+
+.labelmobileno{
+    position: absolute;
+    width: 300px;
+    height: 30px;
+    left: 250px;
+    margin-top: 240px; 
+}
+
+.labeladdress{
+    position: absolute;
+    width: 300px;
+    height: 20%;
+    margin-left: 100px;
+    margin-top: 350px; 
+}
+
+.labelquantity{
+    position: absolute;
+    width: 300px;
+    height: 20%;
+    margin-left: -50px;
+    margin-top: 500px; 
+}
+/*.btn btn-primary{
+    width: 100%;
+    border: none;
+    margin-top: 350%;
+    margin-left: 10px;
+    border-radius: 8px;
+    font-size: 18px;
+    font-weight: 600;
+}
+*/
+.lsubmit{
+    width: 100%;
+    border: none;
+    margin-top: 550px;
+    margin-left: 50px;
+    border-radius: 8px;
+    font-size: 18px;
+    font-weight: 600;
+}

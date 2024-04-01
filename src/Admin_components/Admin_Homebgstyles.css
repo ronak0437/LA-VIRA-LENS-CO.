@@ -1,0 +1,47 @@
+.homebg{
+    position: absolute;
+    margin-left: -1000px;
+    margin-top: 0px;
+    padding-right: 0px;
+}
+.homegraphic{
+    position:absolute;
+    margin-top: 200px;
+    margin-left: 675px;
+
+}
+.container{
+    position: relative;
+  }
+  
+  .container img {
+    position: absolute;
+  }
+  
+  .container img:last-child {
+    z-index: 1;
+  }
+  
+
+.handmade{
+    position: relative;
+    margin-top: 300px;
+    margin-left: -800px;
+}
+
+.circular-button {
+    display: inline-block;
+    border-radius: 50%;
+    overflow: hidden;
+    width: 100px;
+    height: 100px;
+    background-color: #ffffff;
+    box-shadow: 0px 4px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .circular-button img {
+    display: block;
+    width: auto;
+    height: auto;
+  }
+  

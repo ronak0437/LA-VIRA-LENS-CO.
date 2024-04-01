@@ -1,0 +1,117 @@
+.container_contactus {
+    position: relative;
+    text-align: right;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+
+  .centered {
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    left: 40%;
+    transform: translate(-40%, -50%);
+    
+  }
+
+  .c_firstname,
+  .c_lastname,
+  .c_phone,
+  .c_email,
+  .c_message {
+    margin-bottom: -20px;
+  }
+
+.container-img{
+    
+    padding-top: 10px; 
+    display: flex;
+    
+}
+
+.contactshadow{
+   margin-left: 175%;
+    margin-right: 5rem;
+    padding-right: 100%;
+    margin-top: -1%;
+}
+.contactgraphics{
+    margin-left: 10%;
+    margin-top: -3%;
+}
+.havesomequestions{
+    margin-top: -1%;
+   font-size: 30px;
+
+}
+.getintouch{
+    margin-left: 5%;
+    font-size: 25px;
+}
+.blank{
+    font-size: 20px;
+    margin-left: 5%;
+    margin-top: -10px;
+}
+.notext{
+    font-size: 25px;
+}
+.noicon{
+    font-size: 20px;
+    margin-top: 5px;
+}
+.mailtext{
+    font-size: 20px;
+    margin-left: 5%;
+}
+
+.c_firstname{
+    position: relative;
+    margin-top: -50px;
+    width: 20%;
+    margin-bottom: 1px;
+    
+}
+
+.c_lastname{
+   
+    margin-top: -50px;
+    width:20%;
+
+}
+
+.c_phone{
+    margin-top: -50px;
+    width:20%;
+}
+
+.c_email{
+    margin-top: -50px;
+    width:20%;
+}
+
+.c_phone{
+    margin-top: -50px;
+    width:20%;
+}
+
+.c_message{
+    margin-top: -50px;
+    width:20%;
+}
+
+.c_submit{
+    margin-top: -50px;
+    
+}
+
+.c_icons{
+    margin-left: 110px;
+     transform: translateY(-300%);
+     color: black;
+
+}
+

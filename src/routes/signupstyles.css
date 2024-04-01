@@ -1,0 +1,170 @@
+.signupgraphicimg img {
+  width: 500%;
+  margin-left: 70%;
+  height: 100%;
+}
+
+.container_signup {
+  position: relative;
+  width: 600px;   
+}
+
+.signup{
+  margin-left: 115%;
+  text-align: center;
+  font-size: 28px;
+  top: -100px;
+  font-style: bold;
+}
+
+.container_signup::before {
+  content: "";
+  position: absolute;
+  top: -50px;
+  left: -50px;
+  right: -50px;
+  bottom: -50px;
+  background: #FFFFFF;
+  z-index: -1;
+}
+
+.container_signup .centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: #2F2F2F;
+}
+
+.container_signup img {
+  width: 80%;
+  max-width: 600px;
+  height: 90%;
+  margin-top: 10%;
+  margin-left: 35%;
+}
+
+.signupemail,
+.signuppass,
+.signupcpass{
+  margin-top: 16px;
+}
+
+input[type="text"] {
+  width: 100%;
+  margin-left: 60%;
+  padding: 12px 16px;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  color: #2F2F2F;
+  background-color: #F7F7F7;
+  box-shadow: inset 0px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+button {
+  margin-right: 16px;
+  font-size: 14px;
+  left: 80%;
+  font-weight: 600;
+  color: #5A5A5A;
+  background-color: transparent;
+  border: none;
+}
+
+button:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+input[type="submit"] {
+  width: 100%;
+  padding: 16px 0;
+  border: none;
+  margin-top: 10%;
+  margin-left: 60%;
+  border-radius: 8px;
+  font-size: 18px;
+  font-weight: 600;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  background-color: #14B8A6;
+  cursor: pointer;
+  transition: background-color 0.2s ease-in-out;
+}
+
+input[type="submit"]:hover {
+  background-color: #0E948B;
+}
+
+.signup-container {
+  position: relative;
+}
+
+input[type='text'] {
+  width: 100%;
+  padding: 12px 16px 12px 48px;
+  border: none;
+  margin-bottom: 5%;
+  border-radius: 8px;
+  font-size: 16px;
+  color: #2f2f2f;
+  background-color: #f7f7f7;
+  box-shadow: inset 0px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.signup-icon {
+  position: absolute;
+ margin-top: 10%;
+  left: 150px;
+  transform: translateY(-50%);
+}
+input[type="password"] {
+  width: 100%;
+  margin-left: 60%;
+  margin-bottom: 5%;
+  padding: 12px 16px 12px 48px;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  color: #2F2F2F;
+  background-color: #F7F7F7;
+  box-shadow: inset 0px 2px 4px rgba(0, 0, 0, 0.1);
+  /* Set a fixed width for the input field */
+}
+.inputspass{
+position: absolute;
+top: 3%;
+margin-left: 180px;
+}  
+
+.rmailicon{
+position: absolute;
+top: 25%;
+margin-left: 45px;
+}
+
+.passvalidation{
+  margin-right: 10px;
+  width: 900%;
+  margin-top: 90%;
+  margin-left: -290%;
+  color: red;
+}
+
+.cpassvalidation{
+  margin-right: 10px;
+  width: 900%;
+  margin-top: 90%;
+  margin-left: -290%;
+  color: red;
+}
+
+.emailvalidation{
+  margin-right: 10px;
+  margin-left: 80%;
+  text-align: center;
+  width: 100%;
+  color: red; 
+}

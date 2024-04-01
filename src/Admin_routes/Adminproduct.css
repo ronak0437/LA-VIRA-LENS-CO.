@@ -1,0 +1,56 @@
+.container {
+    width: 80%;
+    margin: auto;
+  }
+  
+  .addproduct {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .admin-product-form {
+    max-width: 600px;
+    margin: auto;
+  }
+  
+  .row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 15px;
+  }
+  
+  .input-group {
+    display: flex;
+    margin-bottom: 15px;
+  }
+  
+  .input-label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  .input-field {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+  }
+  
+  .psubmit {
+    text-align: center;
+  }
+  
+  .btn {
+    background-color: #4caf50;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .btn:hover {
+    background-color: #45a049;
+  }
+  

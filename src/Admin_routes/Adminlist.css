@@ -1,0 +1,23 @@
+.fetch-productlist {
+    border-collapse: collapse;
+    width: 80%;
+    margin-top: 20px;
+    margin-left: 8%;
+
+  }
+  
+  .fetch-productlist th,
+  .fetch-productlist td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+  }
+  
+  .fetch-productlist th {
+    background-color: #89CFF0;
+    color: #555;
+  }
+  
+  .fetch-productlist tr:hover {
+    background-color: #f5f5f5;
+  }
